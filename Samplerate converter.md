@@ -76,3 +76,8 @@ void polyphaseFilterUnittest() {
 }
 ```
 
+
+
+Here is the performance of the simple SRC, I use a 255 order lpf FIR at this case, and the sample rate is 96 kHz, fc = 22 kHz, dB_stop = -130.
+
+![1554201266935](assets/1554201266935.png)
