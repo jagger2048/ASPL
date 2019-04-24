@@ -1,16 +1,23 @@
 ﻿
-//#include <iostream>
 #include <stdio.h>
 #include <stdint.h>
+#include <stdlib.h>
+#include <fstream>
+#include <iostream>
+#include "unittest.h"
+using namespace std;
 
-#include "wavfile.h"
-#include "frame.h"
 int main()
 {
-	printf("This is the signal processing library test case.\n");
-	wav wavfile;
-	spl_frame_p pFram = spl_frame_new(48000, 1024);
+	//irUnitTest();
+	////dbb2UnitTest_refactor();
+	//firUnitTest();
+	polyphaseFilterUnittest();
+
+
 	return 0;
 }
+
+
 
 
